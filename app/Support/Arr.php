@@ -53,7 +53,8 @@ class Arr
     foreach (explode('.', $key) as $segment) {
 
       if (static::canAccess($array) && static::exists($array, $segment)) {
-
+        var_dump($array);
+        //this drills down the nested array
         $array = $array[$segment];
       } else {
         return $default;

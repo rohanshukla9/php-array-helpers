@@ -35,6 +35,15 @@ echo array_get($user, 'country.name'); # IN
 echo array_get($user, 'topics.1.title'); # N+1 query memes
 ```
 
+## TODO
+
+Array First
+Array Last
+Array Has
+Array Where
+Array Only
+Array Forget
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
